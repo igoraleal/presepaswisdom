@@ -1,5 +1,5 @@
 <h1>Presepa's Wisdom</h1>
-<h2>https://presepas-wisdom.appspot.com</h2>
+<h4>https://presepas-wisdom.appspot.com</h4>
 
 A project to give you wisdom. Presepeiro's wisdom!
 
