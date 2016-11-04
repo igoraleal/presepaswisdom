@@ -68,6 +68,7 @@
     var sucessoPostSabedoria = function(response) {
       ctrl.showLoading = false;
       ctrl.message = "Sabedoria salva com sucesso.";
+      ctrl.wisdom = "";
     }
 
     var erroPostSabedoria = function(response) {
