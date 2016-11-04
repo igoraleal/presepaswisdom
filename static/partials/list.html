@@ -1,0 +1,19 @@
+<div class="w3-container" ng-controller="ListController as list">
+  <h1 style="
+    color: teal;
+    font-weight: bold;
+">Toda a sabedoria presepeira.</h1>
+  <div class="w3-card-4" style="width:70%; margin: 30px;">
+    <div class="w3-container" ng-repeat="wisdom in list.sabedorias" ng-show="!list.showLoading">    
+  		<p style="text-align: left;">
+  				<img src="/img/delete.jpg" style="width: 3%;" ng-click="list.delete(wisdom.code)" />
+  			{{wisdom.text}}
+  		</p>
+    </div>
+    <div ng-show="list.showLoading" style="margin-left: 20px; margin-right: 20px;">
+    	<img src="/img/loading.gif" width="10%" style="margin-top: 20px; margin-bottom: 20px;">
+    </div>
+  </div>
+  <p><a href="/#/random" class="w3-btn w3-round-large w3-large w3-ripple w3-teal">Minha sabedoria!</a></p>
+  <p><a href="/#/new" class="w3-btn w3-round-large w3-large w3-ripple w3-teal">Nova</a> 
+</div>

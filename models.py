@@ -1,5 +1,5 @@
 from google.appengine.ext import ndb
-from api_messages import WisdomMessageResponse
+from api_messages import WisdomMessageResponse,WisdomListMessageResponse
 
 class PresepasModel(ndb.Model):
 

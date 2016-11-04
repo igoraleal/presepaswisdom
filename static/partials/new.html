@@ -1,0 +1,17 @@
+<div class="w3-container" ng-controller="NewController as new">
+  <h1 style="
+    color: teal;
+    font-weight: bold;
+">Cadastre sua sabedoria presepeira.</h1>
+  <div class="w3-card-4" style="width:70%; margin: 30px;">
+    <div class="w3-container">    
+  <h2 class="w3-text-teal">Nova Sabedoria</h2>
+  <h4>{{new.message}}</h4>
+  <p>
+  <input class="w3-input w3-border" name="wisdom" type="text" ng-model="new.wisdom"></p>
+  <p>
+  <button class="w3-btn w3-teal" ng-click="new.postSabedria()">Enviar</button></p>
+  </div>
+   <p><a href="/#/random" class="w3-btn w3-round-large w3-large w3-ripple w3-teal">Minha sabedoria!</a></p>
+  <p><a href="/#/list" class="w3-btn w3-round-large w3-large w3-ripple w3-teal">Todas</a> 
+</div>
