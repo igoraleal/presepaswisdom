@@ -4,7 +4,7 @@
     font-weight: bold;
 ">Cadastre sua sabedoria presepeira.</h1>
   <div class="w3-card-4" style="width:70%; margin: 30px;">
-    <div class="w3-container">    
+    <div class="w3-container" ng-show="!new.showLoading">    
   <h2 class="w3-text-teal">Nova Sabedoria</h2>
   <h4>{{new.message}}</h4>
   <p>
@@ -12,5 +12,9 @@
   <p>
   <button class="w3-btn w3-teal" ng-click="new.postSabedria()">Enviar Sabedoria</button></p>
   </div>
+  <div ng-show="new.showLoading" style="margin-left: 20px; margin-right: 20px;">
+      <img src="/img/loading.gif" width="10%" style="margin-top: 20px; margin-bottom: 20px;">
+      <p>Aguarde... Buscando a sua sabedoria neste imenso banco de dados que é o Presepeiro...</p>
+    </div>
 </div>
    <p><a href="/#/random" class="w3-btn w3-round-large w3-large w3-ripple w3-teal" style="margin: 1%;">Buscar minha sabedoria!</a><a href="/#/list" class="w3-btn w3-round-large w3-large w3-ripple w3-teal">Ver todas</a> 

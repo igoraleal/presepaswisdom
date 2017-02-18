@@ -93,6 +93,8 @@
 
     var ctrl = this;
 
+    ctrl.showLoading = true;
+
     var sucessoGetSabedoria = function(response) {
       ctrl.showLoading = false;
       ctrl.sabedorias = response.data.items;
