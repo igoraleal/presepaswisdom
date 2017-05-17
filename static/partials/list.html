@@ -6,7 +6,7 @@
   <div class="w3-card-4" style="width:70%; margin: 30px;">
     <div class="w3-container" ng-repeat="wisdom in list.sabedorias" ng-show="!list.showLoading">    
   		<p style="text-align: left;">
-  				<img src="/img/delete.jpg" style="width: 3%;" ng-click="list.delete(wisdom.code)" alt="Excluir sabedoria" />
+     <button confirmed-click="list.delete(wisdom.code)" ng-confirm-click="Deseja realmente excluir esta sabedoria?">Excluir</button>
   			{{wisdom.text}}
   		</p>
     </div>
