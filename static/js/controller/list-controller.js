@@ -47,7 +47,7 @@
 
   };
 
-  app = angular.module('presepasApp');
+  var app = angular.module('presepasApp');
   app.controller('ListController', ListController);
 
 }());
