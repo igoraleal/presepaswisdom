@@ -1,3 +1,5 @@
+Disclaimer: This is a joke for a colleague of mine who used to spread some wisdom throught the team.
+
 <h1>Presepa's Wisdom</h1>
 <h4>https://presepas-wisdom.appspot.com</h4>
 
